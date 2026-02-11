@@ -1,16 +1,34 @@
-## Hi there 👋
-
-<!--
-**ReLLestate/ReLLestate** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+ ### 📊 Market Pulse data (live in the site)                                                                                                                       
+                                                                                                                                                                   
+ All pulled on Feb 11 from the City of Philadelphia OPA property sales open dataset (closings dated Dec 1 2025 – Feb 10 2026, price > $1K to skip nominal          
+ transfers).                                                                                                                                                       
+                                                                                                                                                                   
+ ┌────────────────────┬──────────────────────────────────────────┬─────────────────────────────────────────────┐                                                   
+ │ Metric             │ Value                                    │ Notes                                       │                                                   
+ ├────────────────────┼──────────────────────────────────────────┼─────────────────────────────────────────────┤                                                   
+ │ Median sale price  │ $250,000                                 │ percentile_disc(0.5) across 1,105 closings  │                                                   
+ ├────────────────────┼──────────────────────────────────────────┼─────────────────────────────────────────────┤                                                   
+ │ Average sale price │ $473,507                                 │ Skewed upward by trophy deals               │                                                   
+ ├────────────────────┼──────────────────────────────────────────┼─────────────────────────────────────────────┤                                                   
+ │ Tier mix           │ 38% <$200K · 44% $200–$499K · 17% ≥$500K │ Calculated share of closings                │                                                   
+ ├────────────────────┼──────────────────────────────────────────┼─────────────────────────────────────────────┤                                                   
+ │ Avg price per tier │ $105K / $311K / $1.69M                   │ Entry / move-up / upper-tier means          │                                                   
+ ├────────────────────┼──────────────────────────────────────────┼─────────────────────────────────────────────┤                                                   
+ │ Housing stock      │ 56% of transfers were rowhouse variants  │ Row Typical, Porch Front, Post-War combined │                                                   
+ └────────────────────┴──────────────────────────────────────────┴─────────────────────────────────────────────┘                                                   
+                                                                                                                                                                   
+ Source: https://phl.carto.com/api/v2/sql?q=SELECT%20sale_price,sale_date%20FROM%20opa_properties_public (custom queries logged in website/market-data-notes.md).  
+                                                                                                                                                                   
+ ────────────────────────────────────────────────────────────────────────────────                                                                                  
+                                                                                                                                                                   
+ ### 🏘 Featured listings already wired in                                                                                                                          
+                                                                                                                                                                   
+ 1. 4401 Lancaster Ave – CMX-2, 10K sf corner assemblage, $975K with QOZ callouts.                                                                                 
+ 2. 52 Carol Ln, Malvern – under contract at $435K; 1.08 acres + reduction story.                                                                                  
+ 3. 2649 Valley Rd, Jamison – coming soon narrative with refreshed estate vibe (I kept the 2649 address you mentioned; shout if it should be 2349 like the         
+ write-up text).                                                                                                                                                   
+ 4. 1701–03 N 20th St – 12-unit cash-flow play; cleaned up the emoji-heavy copy and restated the seller-supplied income/NOI/cap rate. If you have firmer numbers   
+ than the garbled text (“2187 chars…”), send them and I’ll update the card.                                                                                        
+                                                                                                                                                                   
+ Call-to-actions include direct phone/email links, IG + Facebook, and a Substack iframe so people can subscribe without leaving the page. The contact form is      
+ mailto:-based right now (so it costs nothing); when you’re ready for a lead-capture backend we can swap to Netlify Forms, Formspree, or your CRM.               
