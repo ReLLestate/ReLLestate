@@ -255,6 +255,12 @@ a:hover {
   color: var(--muted);
 }
 
+.coverage-note {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  color: #2b3b32;
+}
+
 .skyline-band {
   background: linear-gradient(135deg, rgba(11, 46, 29, 0.92), rgba(15, 138, 69, 0.85));
   color: rgba(255, 255, 255, 0.9);
@@ -569,6 +575,17 @@ a:hover {
 .compliance {
   font-size: 0.8rem;
   color: var(--muted);
+}
+
+.kw-brand {
+  margin-top: 1rem;
+}
+
+.kw-brand img {
+  max-width: 180px;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .socials {
