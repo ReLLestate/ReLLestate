@@ -406,6 +406,19 @@ a:hover {
   transform: translateX(3px);
 }
 
+.listing-photo {
+  margin: 0 0 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid rgba(12, 12, 12, 0.08);
+}
+
+.listing-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .listing-grid article ul,
 .about-grid article ul {
   padding-left: 1.1rem;
