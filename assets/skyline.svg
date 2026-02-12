@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" role="img" aria-label="Philadelphia skyline silhouettes">
+  <rect width="1200" height="200" fill="none" />
+  <g fill="#0b2e1d" opacity="0.45">
+    <rect x="20" y="90" width="80" height="110" />
+    <rect x="140" y="70" width="90" height="130" />
+    <rect x="260" y="60" width="70" height="140" />
+    <rect x="360" y="40" width="60" height="160" />
+    <polygon points="430,40 460,10 490,40 490,200 430,200" />
+    <rect x="520" y="80" width="70" height="120" />
+    <polygon points="630,200 630,100 660,70 690,100 690,200" />
+    <rect x="720" y="85" width="80" height="115" />
+    <polygon points="830,200 830,60 860,30 890,60 890,200" />
+    <rect x="920" y="70" width="70" height="130" />
+    <rect x="1010" y="95" width="120" height="105" />
+  </g>
+  <g fill="#0f8a45" opacity="0.35">
+    <rect x="60" y="110" width="60" height="90" />
+    <rect x="190" y="120" width="50" height="80" />
+    <rect x="300" y="110" width="50" height="90" />
+    <rect x="410" y="120" width="40" height="80" />
+    <rect x="500" y="130" width="40" height="70" />
+    <rect x="610" y="130" width="60" height="70" />
+    <rect x="730" y="110" width="50" height="90" />
+    <rect x="840" y="120" width="60" height="80" />
+    <rect x="960" y="120" width="40" height="80" />
+    <rect x="1030" y="130" width="80" height="70" />
+  </g>
+</svg>
